@@ -1,0 +1,27 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid black;
+    /* 不换行 */
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /**
+    多行截断 line-height和height 然后 overflow:hidden
+    **/
+}
+div{
+    width: 200px;
+    height:200px;
+    border: 1px solid black;
+    background-image: url(fy.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
